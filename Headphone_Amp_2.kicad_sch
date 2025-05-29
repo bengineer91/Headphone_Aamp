@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5b0b836f-ffde-4142-b0de-9290e6b13bba")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 214.63 58.42)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0402d827-fa5d-4dbe-86bc-56fda034c637")
+		(property "Sheetname" "USBC Input"
+			(at 214.63 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC_Input.kicad_sch"
+			(at 214.63 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Headphone_Amp_2"
+				(path "/5b0b836f-ffde-4142-b0de-9290e6b13bba"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 25.4)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20551182-c41f-40e0-9176-0c17833b8f1f")
+		(property "Sheetname" "Audio_Amp"
+			(at 214.63 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio_Amp.kicad_sch"
+			(at 214.63 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Headphone_Amp_2"
+				(path "/5b0b836f-ffde-4142-b0de-9290e6b13bba"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 91.44)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d0f1249-c28f-415a-9a41-6fc8226781d2")
+		(property "Sheetname" "Power Conversion"
+			(at 214.63 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Conv.kicad_sch"
+			(at 214.63 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Headphone_Amp_2"
+				(path "/5b0b836f-ffde-4142-b0de-9290e6b13bba"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
